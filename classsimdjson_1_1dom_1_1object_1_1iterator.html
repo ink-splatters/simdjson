@@ -30,7 +30,7 @@
   <td id="projectlogo"><img alt="Logo" src="logotiny.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">simdjson
-   &#160;<span id="projectnumber">3.2.0</span>
+   &#160;<span id="projectnumber">3.7.0</span>
    </div>
    <div id="projectbrief">Ridiculously Fast JSON</div>
   </td>
@@ -98,17 +98,26 @@ $(document).ready(function(){initNavTree('classsimdjson_1_1dom_1_1object_1_1iter
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a9f49fe89534f63d3d2543d5d4bad3180"><td class="memItemLeft" align="right" valign="top"><a id="a9f49fe89534f63d3d2543d5d4bad3180"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = <a class="el" href="classsimdjson_1_1dom_1_1key__value__pair.html">key_value_pair</a></td></tr>
-<tr class="separator:a9f49fe89534f63d3d2543d5d4bad3180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ee514e2e9d049b25631aceccc9a98c"><td class="memItemLeft" align="right" valign="top"><a id="a68ee514e2e9d049b25631aceccc9a98c"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = const <a class="el" href="classsimdjson_1_1dom_1_1key__value__pair.html">key_value_pair</a></td></tr>
+<tr class="separator:a68ee514e2e9d049b25631aceccc9a98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9f5a66a6cd5a6bbacdbdc83b576b80c"><td class="memItemLeft" align="right" valign="top"><a id="af9f5a66a6cd5a6bbacdbdc83b576b80c"></a>
 using&#160;</td><td class="memItemRight" valign="bottom"><b>difference_type</b> = std::ptrdiff_t</td></tr>
 <tr class="separator:af9f5a66a6cd5a6bbacdbdc83b576b80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a635690b40ba45c007c4436b903e7e47e"><td class="memItemLeft" align="right" valign="top"><a id="a635690b40ba45c007c4436b903e7e47e"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>pointer</b> = void</td></tr>
+<tr class="separator:a635690b40ba45c007c4436b903e7e47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b2abd9e8dfde07022dfedeec856fc0d"><td class="memItemLeft" align="right" valign="top"><a id="a0b2abd9e8dfde07022dfedeec856fc0d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>reference</b> = <a class="el" href="classsimdjson_1_1dom_1_1key__value__pair.html">value_type</a></td></tr>
+<tr class="separator:a0b2abd9e8dfde07022dfedeec856fc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a573079fc228576c50d3eedcf6869d82a"><td class="memItemLeft" align="right" valign="top"><a id="a573079fc228576c50d3eedcf6869d82a"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>iterator_category</b> = std::forward_iterator_tag</td></tr>
+<tr class="separator:a573079fc228576c50d3eedcf6869d82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a688f6c7f451602bb3385a93252c0828a"><td class="memItemLeft" align="right" valign="top"><a id="a688f6c7f451602bb3385a93252c0828a"></a>
-const <a class="el" href="classsimdjson_1_1dom_1_1key__value__pair.html">value_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimdjson_1_1dom_1_1object_1_1iterator.html#a688f6c7f451602bb3385a93252c0828a">operator*</a> () const noexcept</td></tr>
+<a class="el" href="classsimdjson_1_1dom_1_1key__value__pair.html">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimdjson_1_1dom_1_1object_1_1iterator.html#a688f6c7f451602bb3385a93252c0828a">operator*</a> () const noexcept</td></tr>
 <tr class="memdesc:a688f6c7f451602bb3385a93252c0828a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the actual key/value pair. <br /></td></tr>
 <tr class="separator:a688f6c7f451602bb3385a93252c0828a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa26738ad08b7de3be4621a75863118ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimdjson_1_1dom_1_1object_1_1iterator.html">iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimdjson_1_1dom_1_1object_1_1iterator.html#aa26738ad08b7de3be4621a75863118ab">operator++</a> () noexcept</td></tr>
@@ -165,7 +174,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="dom_2object_8h_source.html#l00027">27</a> of file <a class="el" href="dom_2object_8h_source.html">object.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dom_2object_8h_source.html#l00019">19</a> of file <a class="el" href="dom_2object_8h_source.html">object.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a4807eeb1ed5f596b587d0b61dfb550e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4807eeb1ed5f596b587d0b61dfb550e7">&#9670;&nbsp;</a></span>key_equals()</h2>
@@ -195,7 +204,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>Design notes: Instead of constructing a string_view and then comparing it with a user-provided strings, it is probably more performant to have dedicated functions taking as a parameter the string we want to compare against and return true when they are equal.</p>
 <p>That avoids the creation of a temporary std::string_view. Though it is possible for the compiler to avoid entirely any overhead due to string_view, relying too much on compiler magic is problematic: compiler magic sometimes fail, and then what do you do? Also, enticing users to rely on high-performance function is probably better on the long run. </p>
 
-<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00214">214</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00217">217</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
 
 </div>
 </div>
@@ -226,7 +235,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>Returns true if the key in this key/value pair is equal to the provided string_view in a case-insensitive manner. </p>
 <p>Case comparisons may only be handled correctly for ASCII strings. </p>
 
-<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00225">225</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00228">228</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
 
 </div>
 </div>
@@ -256,7 +265,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>Get the length (in bytes) of the key in this key/value pair. </p>
 <p>You should expect this function to be faster than <a class="el" href="classsimdjson_1_1dom_1_1object_1_1iterator.html#a951609ca7a164b499ff19adbe2de7983" title="Get the key of this key/value pair.">key()</a>.<a class="el" href="classsimdjson_1_1dom_1_1object.html#a93ec5c36aae913f266f533b2e02bc873" title="Get the size of the object (number of keys).">size()</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00191">191</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00194">194</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
 
 </div>
 </div>
@@ -287,7 +296,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>Check if these values come from the same place in the JSON. </p>
 <p>Part of the std::iterator interface. </p>
 
-<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00160">160</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00163">163</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
 
 </div>
 </div>
@@ -317,7 +326,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>Get the next key/value pair. </p>
 <p>Part of the std::iterator interface. </p>
 
-<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00178">178</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00181">181</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
 
 </div>
 </div>
@@ -348,7 +357,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <p>Get the next key/value pair. </p>
 <p>Part of the std::iterator interface. </p>
 
-<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00183">183</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="dom_2object-inl_8h_source.html#l00186">186</a> of file <a class="el" href="dom_2object-inl_8h_source.html">object-inl.h</a>.</p>
 
 </div>
 </div>
@@ -361,7 +370,7 @@ const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacesimdjson.html">simdjson</a></li><li class="navelem"><b>dom</b></li><li class="navelem"><a class="el" href="classsimdjson_1_1dom_1_1object.html">object</a></li><li class="navelem"><a class="el" href="classsimdjson_1_1dom_1_1object_1_1iterator.html">iterator</a></li>
+    <li class="navelem"><a class="el" href="namespacesimdjson.html">simdjson</a></li><li class="navelem"><a class="el" href="namespacesimdjson_1_1dom.html">dom</a></li><li class="navelem"><a class="el" href="classsimdjson_1_1dom_1_1object.html">object</a></li><li class="navelem"><a class="el" href="classsimdjson_1_1dom_1_1object_1_1iterator.html">iterator</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

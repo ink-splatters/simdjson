@@ -1,38 +1,35 @@
 var namespacesimdjson =
 [
-    [ "dom", null, [
-      [ "array", "classsimdjson_1_1dom_1_1array.html", "classsimdjson_1_1dom_1_1array" ],
-      [ "document", "classsimdjson_1_1dom_1_1document.html", "classsimdjson_1_1dom_1_1document" ],
-      [ "document_stream", "classsimdjson_1_1dom_1_1document__stream.html", "classsimdjson_1_1dom_1_1document__stream" ],
-      [ "element", "classsimdjson_1_1dom_1_1element.html", "classsimdjson_1_1dom_1_1element" ],
-      [ "object", "classsimdjson_1_1dom_1_1object.html", "classsimdjson_1_1dom_1_1object" ],
-      [ "key_value_pair", "classsimdjson_1_1dom_1_1key__value__pair.html", "classsimdjson_1_1dom_1_1key__value__pair" ],
-      [ "parser", "classsimdjson_1_1dom_1_1parser.html", "classsimdjson_1_1dom_1_1parser" ],
-      [ "element_type", "element_8h.html#a6e1dee3a823ecfee91086d3478bbab3a", [
-        [ "ARRAY", "element_8h.html#a6e1dee3a823ecfee91086d3478bbab3aacb4fb1757fb37c43cded35d3eb857c43", null ],
-        [ "OBJECT", "element_8h.html#a6e1dee3a823ecfee91086d3478bbab3aa8eee8e217391199668cbac89472ace53", null ],
-        [ "INT64", "element_8h.html#a6e1dee3a823ecfee91086d3478bbab3aa4e866b275c85fbb439f6484251cfb31c", null ],
-        [ "UINT64", "element_8h.html#a6e1dee3a823ecfee91086d3478bbab3aa6de7acf711860176ba606e9aa2b85d5f", null ],
-        [ "DOUBLE", "element_8h.html#a6e1dee3a823ecfee91086d3478bbab3aafd3e4ece78a7d422280d5ed379482229", null ],
-        [ "STRING", "element_8h.html#a6e1dee3a823ecfee91086d3478bbab3aa63b588d5559f64f89a416e656880b949", null ],
-        [ "BOOL", "element_8h.html#a6e1dee3a823ecfee91086d3478bbab3aaa97b2c144243b2b9d2c593ec268b62f5", null ],
-        [ "NULL_VALUE", "element_8h.html#a6e1dee3a823ecfee91086d3478bbab3aaa9f0aff2067f91437e50e4872b229e6a", null ]
-      ] ],
-      [ "element::get< std::string_view >", "element-inl_8h.html#ab61244b704aac73f80987733dae1ff26", null ],
-      [ "operator<<", "element-inl_8h.html#a2201b306b0efa80269faf05e1ba2879b", null ],
-      [ "operator<<", "dom_2serialization_8h.html#a43347827393e037c8027ddccd6ec994b", null ],
-      [ "operator<<", "dom_2serialization_8h.html#aa5dbd189409df6b2672310006c92463f", null ],
-      [ "operator<<", "dom_2serialization_8h.html#a9b9af1992350587324412b3ee5b3347a", null ],
-      [ "operator<<", "dom_2serialization_8h.html#a66cf0dca50cbaa17e59c1349ae6d7c1d", null ],
-      [ "operator<<", "dom_2serialization_8h.html#a50a1f5a28bb3b74e3c97b728c1ea8245", null ],
-      [ "operator<<", "dom_2serialization_8h.html#a3f7b959b3ebe04634ab0e22a48426786", null ]
+    [ "arm64", "namespacesimdjson_1_1arm64.html", null ],
+    [ "dom", "namespacesimdjson_1_1dom.html", "namespacesimdjson_1_1dom" ],
+    [ "fallback", "namespacesimdjson_1_1fallback.html", null ],
+    [ "haswell", "namespacesimdjson_1_1haswell.html", null ],
+    [ "icelake", "namespacesimdjson_1_1icelake.html", null ],
+    [ "ondemand", null, [
+      [ "json_path_to_pointer_conversion", "json__path__to__pointer__conversion-inl_8h.html#a39425f9221b5a826d35c92337472b23f", null ]
     ] ],
+    [ "ppc64", "namespacesimdjson_1_1ppc64.html", null ],
     [ "SIMDJSON_IMPLEMENTATION", null, [
+      [ "internal", null, [
+        [ "json_path_to_pointer_conversion", "json__path__to__pointer__conversion_8h.html#a61b6ae0646529c9ad9888658eb7e3f86", null ]
+      ] ],
+      [ "numberparsing", null, [
+        [ "parse_number", "numberparsing_8h.html#abfab4a11a66cf3429d4b584165a0d47e", null ],
+        [ "write_float", "numberparsing_8h.html#a4c645a86ea19178e55e6ceaa96ad29ae", null ]
+      ] ],
       [ "ondemand", "namespacesimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand.html", "namespacesimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1ondemand" ],
       [ "open_container", "structsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1open__container.html", "structsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1open__container" ],
       [ "dom_parser_implementation", "classsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1dom__parser__implementation.html", "classsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1dom__parser__implementation" ],
-      [ "implementation_simdjson_result_base", "structsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1implementation__simdjson__result__base.html", "structsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1implementation__simdjson__result__base" ]
+      [ "implementation_simdjson_result_base", "structsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1implementation__simdjson__result__base.html", "structsimdjson_1_1_s_i_m_d_j_s_o_n___i_m_p_l_e_m_e_n_t_a_t_i_o_n_1_1implementation__simdjson__result__base" ],
+      [ "number_type", "generic_2base_8h.html#a6ce99de87fa73b924822cd28045c97c0", [
+        [ "floating_point_number", "generic_2base_8h.html#a6ce99de87fa73b924822cd28045c97c0ac5695c1a5026a1e5bec81b77096c1e9f", null ],
+        [ "signed_integer", "generic_2base_8h.html#a6ce99de87fa73b924822cd28045c97c0aa14b6141855cd58c670ca6559c75c941", null ],
+        [ "unsigned_integer", "generic_2base_8h.html#a6ce99de87fa73b924822cd28045c97c0a7383104b83254a99f5991d0ac77a6666", null ],
+        [ "big_integer", "generic_2base_8h.html#a6ce99de87fa73b924822cd28045c97c0ae31b13bfd9383fa5b4dce96caa6a3e2c", null ]
+      ] ],
+      [ "operator<<", "numberparsing_8h.html#ade2dc27fe18a87c9fb48782885fc76a3", null ]
     ] ],
+    [ "westmere", "namespacesimdjson_1_1westmere.html", null ],
     [ "simdjson_result< dom::array >", "structsimdjson_1_1simdjson__result_3_01dom_1_1array_01_4.html", "structsimdjson_1_1simdjson__result_3_01dom_1_1array_01_4" ],
     [ "simdjson_result< dom::document_stream >", "structsimdjson_1_1simdjson__result_3_01dom_1_1document__stream_01_4.html", "structsimdjson_1_1simdjson__result_3_01dom_1_1document__stream_01_4" ],
     [ "simdjson_result< dom::element >", "structsimdjson_1_1simdjson__result_3_01dom_1_1element_01_4.html", "structsimdjson_1_1simdjson__result_3_01dom_1_1element_01_4" ],
@@ -58,7 +55,6 @@ var namespacesimdjson =
     [ "padded_string", "structsimdjson_1_1padded__string.html", "structsimdjson_1_1padded__string" ],
     [ "padded_string_view", "classsimdjson_1_1padded__string__view.html", "classsimdjson_1_1padded__string__view" ],
     [ "ErrorValues", "namespacesimdjson.html#a63b494af834917af13120dcd57719bdb", null ],
-    [ "ParsedJson", "namespacesimdjson.html#a9245ff68919610377256bb9b21070e2a", null ],
     [ "error_code", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9", [
       [ "SUCCESS", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9aa4ffc800804829a88c5b52ac3c4c6681", null ],
       [ "CAPACITY", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9a2d50048bbe409023df4e88f6ffe3bc71", null ],
@@ -70,6 +66,7 @@ var namespacesimdjson =
       [ "F_ATOM_ERROR", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9ae726a74b8a99e4bf802f3078436a2394", null ],
       [ "N_ATOM_ERROR", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9a4e161f7bd0b3ca10f41a220a75de8cde", null ],
       [ "NUMBER_ERROR", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9adfcabbbd1ddb0843a0f320e062866ae8", null ],
+      [ "BIGINT_ERROR", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9ae5acac431888aeadfef98bee7d66957e", null ],
       [ "UTF8_ERROR", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9a398a5389d6e20c39e8880b0101b66f56", null ],
       [ "UNINITIALIZED", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9ac2aef8f0fc33187cc118c95fade925d2", null ],
       [ "EMPTY", "namespacesimdjson.html#a7b735a3a50ba79e3f7f14df5f77d8da9a7aed571b420dcdfe59742e0df97b415a", null ],
@@ -98,11 +95,6 @@ var namespacesimdjson =
       [ "streaming_partial", "namespacesimdjson.html#ae6ec9f0ce23fc51d87116b64fdbeb811a929eb14f376ff68fc0ddd3d682e00d4c", null ],
       [ "streaming_final", "namespacesimdjson.html#ae6ec9f0ce23fc51d87116b64fdbeb811ac059cc555f4992b3eb481f03b70df100", null ]
     ] ],
-    [ "build_parsed_json", "namespacesimdjson.html#a971a402db39c41031e4d905fe3614585", null ],
-    [ "build_parsed_json", "namespacesimdjson.html#ace2a91673313643def02966826e3920b", null ],
-    [ "build_parsed_json", "namespacesimdjson.html#aa17af188e477e08db53a67ab6ceeacf4", null ],
-    [ "build_parsed_json", "namespacesimdjson.html#a8acc50c61e4e3ea1aaa7aa8afd42c2b3", null ],
-    [ "build_parsed_json", "namespacesimdjson.html#a055b1230968101c76d7379da72cf3be1", null ],
     [ "builtin_implementation", "namespacesimdjson.html#af63210cc51d5c99ad84958daf9812e63", null ],
     [ "error_message", "namespacesimdjson.html#a65b00a7a7a9c8fafe9eb3b9b413a36fa", null ],
     [ "error_message", "namespacesimdjson.html#a56e8e2fa6798b9e0da80bc51ae4a5f29", null ],
@@ -110,19 +102,16 @@ var namespacesimdjson =
     [ "get_available_implementations", "namespacesimdjson.html#a7e4483a8ae684fdb5b2f1e7d4a8acc69", null ],
     [ "get_corpus", "namespacesimdjson.html#ad394176adf22f9151f92d9cd541d0aee", null ],
     [ "is_streaming", "namespacesimdjson.html#a6f306690d6d088d80b0cc2717040b2d0", null ],
-    [ "json_parse", "namespacesimdjson.html#a3dfa142328d096b51f85e13fe96fd25e", null ],
-    [ "json_parse", "namespacesimdjson.html#a630111c8201eafec9b4c44fe0456a475", null ],
-    [ "json_parse", "namespacesimdjson.html#a2ec7825eb81d38a4a101dd89031ad86c", null ],
-    [ "json_parse", "namespacesimdjson.html#a688157fcec0f7a073ebcbaa277df1647", null ],
-    [ "json_parse", "namespacesimdjson.html#a913aabdb29fe97e1b8246f1e210f1c40", null ],
     [ "minify", "namespacesimdjson.html#a94bb4244756d764cf0ed7de180ae6520", null ],
     [ "minify", "namespacesimdjson.html#a083a32b06fd32b6cd5e747abe3db6172", null ],
     [ "minify", "namespacesimdjson.html#aeb4ef5cab43d52da3fdd99cb689aff2c", null ],
     [ "operator<<", "namespacesimdjson.html#a537445bb236ae76d2b5559b1851b7108", null ],
     [ "operator<<", "namespacesimdjson.html#a43514fe76c3095e45f30a050a9551d27", null ],
     [ "operator<<", "namespacesimdjson.html#a39bbbf605c0068e4a65c2d8885727fc9", null ],
-    [ "operator<<", "namespacesimdjson.html#a61a74357c3e9313ad84c5f1243fdf581", null ],
+    [ "operator<<", "namespacesimdjson.html#a667605c4c36cfa45bf111d6c76d39284", null ],
     [ "operator<<", "namespacesimdjson.html#a4447c2af37e8fa57daa0cedd948a810d", null ],
+    [ "prettify", "namespacesimdjson.html#adf3293e0e757f2db0f279347c3b57914", null ],
+    [ "prettify", "namespacesimdjson.html#aed443864cc94c09c3f88eea39f8ce645", null ],
     [ "to_json_string", "namespacesimdjson.html#a598dd79ec46726de8a6d409ba1bae034", null ],
     [ "to_json_string", "namespacesimdjson.html#a2cda17221b852e5c398bad5bf350d270", null ],
     [ "to_json_string", "namespacesimdjson.html#a44db29a59fd9f65464171bb1caeb0914", null ],
@@ -140,6 +129,6 @@ var namespacesimdjson =
     [ "validate_utf8", "namespacesimdjson.html#a04edabca6d128b8b31592e1e2e331ae0", null ],
     [ "validate_utf8", "namespacesimdjson.html#a28a847c4b31fc804bec2987b171dbd07", null ],
     [ "DEFAULT_MAX_DEPTH", "namespacesimdjson.html#a6df2598eb1d4e1ea669c41831cc7325d", null ],
-    [ "SIMDJSON_MAXSIZE_BYTES", "namespacesimdjson.html#ac66973a7111dc4aa96ba7b3434344347", null ],
+    [ "SIMDJSON_MAXSIZE_BYTES", "namespacesimdjson.html#a32d36effa0943f5006e9d4151f5de0e4", null ],
     [ "SIMDJSON_PADDING", "namespacesimdjson.html#aecdd750132f0eb123a6d61113b4197bf", null ]
 ];
